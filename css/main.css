@@ -41,7 +41,7 @@
 
 .team-credo {
 	color: #898888;
-	font-family: Merriweather;
+	font-family: "Merriweather";
 	font-size: 16px;
 	font-weight: 300;
 	font-style: italic;
@@ -63,8 +63,7 @@
 	display: inline-block;
 	width: 33%;
 	margin-top: 120px;
-	
-		
+			
 }
 
 .name {
@@ -95,3 +94,5 @@
 	position: relative;
     top: 50px;
 }
+
+
