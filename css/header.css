@@ -85,9 +85,10 @@ html, body {
 
 .jumbo-title {
   color: #1d1e1f;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 44px;
   line-height: 35px;
-  letter-spacing: 3px;
 }
 
 .jumbo-description {
