@@ -10,7 +10,9 @@ html, body {
 
 .container {
   height: 100%;
-  background: url("../img/go-down.png") no-repeat bottom;  
+  background-image: url("../img/go-down.png"); 
+  background-position: center bottom 90px; 
+  background-repeat: no-repeat; 
 }
 
 
@@ -20,7 +22,6 @@ html, body {
   	max-width: 1020px;
   	margin: 0 auto;
   	position: relative;
-  	border: 1px solid black;
  }
   
  .menu {   
@@ -61,21 +62,61 @@ html, body {
 
 .logo {
 	position: absolute;
+
+  top: 0;
 	left: 0;
-    right: 0;
-    width: 55px;
-    margin: auto;
+  right: 0;
+
+  width: 55px;
+  margin: auto;
 }
 
 .jumbo-container {
 	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
 
-    height: 100px;
-    width: 400px;
+.jumbo-title {
+  color: #1d1e1f;
+  font-size: 44px;
+  line-height: 35px;
+  letter-spacing: 3px;
+}
 
-    margin: auto;
+.jumbo-description {
+  font-family: 'Merriweather', serif;
+  color: #898888;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.read-more {
+  width: 180px;
+  height: 55px;
+  margin-top: 45px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.read-more:hover {
+  background-color: black;
+  color: white;
 }
