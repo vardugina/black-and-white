@@ -1,0 +1,112 @@
+
+.contact-container {
+	width: 1200px;
+	height: 1100px;
+	margin: 0 auto;
+}
+
+.contact-us {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.contact-us-main {
+	color: #1d1e1f;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 34px;
+	line-height: 26px;
+}
+
+.contact-us-text {
+	color: #898888;
+	font-family: "Merriweather";
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 26px;
+}
+
+
+.contact-info {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+
+.contact-description {
+	color: #898888;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+
+
+form {
+
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 155px;
+}
+
+.info {
+	width: 770px;
+	height: 52px;
+	margin-bottom: 20px;
+	border: color: 2px solid #898888; 
+    outline: none;
+	color: #898888;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+
+}
+
+
+.submit {
+	width: 770px;
+	height: 52px;
+	margin-bottom: 20px;
+	background-color: #161616;
+	color: #fefefe;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 17px;
+	line-height: 26px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+
+
+textarea {
+	width: 770px;
+	height: 190px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	resize: none;
+	-webkit-appearance: none;
+    outline: none;
+    color: #898888;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+}
+
+ 
+.info:focus { 
+    border:  2px solid black;
+}
+
+textarea:focus { 
+    border:  2px solid black;
+}
