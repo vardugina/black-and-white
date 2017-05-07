@@ -41,7 +41,7 @@
 	height: 1664px;
 	margin: 0 auto;
 	background-color: #101010;
-	background: url("../img/post5.png") no-repeat center bottom -40%;
+	background: url("../img/post5.png") no-repeat center bottom -130%;
 }
 
 
@@ -121,6 +121,7 @@
 	line-height: 26px;
 	text-transform: uppercase;
   	transition: all 0.5s ease;
+  	cursor: pointer;
  }
 
  .blog:hover {

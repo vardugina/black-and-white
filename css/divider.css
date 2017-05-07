@@ -4,34 +4,68 @@
 }
 
 .history {
-	width: 400px;
+	width: 470px;
 	height: 150px;
+	position: relative;
 }
 
+.divider .history {
+	padding: 0 70px;
+}
 
-.history2011 {
-	margin-top: 150px;
-	margin-bottom: 250px;
-	padding-right: 70px;
+.divider-left .history {
 	float: right;
 	text-align: right;
 }
 
-.history2012 {
-	margin-top: 270px;
-	margin-bottom: 340px;
-	padding-left: 70px;
+.history2011 {
+	margin-top: 150px;
 }
 
-.history2014 {
-	padding-left: 70px;
+.history2011:after, .history2013:after {
+	content: " ";
+	position: absolute;
+	border: 4px solid white;
+	border-radius: 50%;
+	background-color: #1d1d1d;
+	height: 16px;
+	width: 16px;
+	top: 0;
+	right: -15px;
+	z-index: 1;
+}
+
+.history2013:after {
+	height: 32px;
+	width: 32px;
+	right: -23px;
+}
+
+.history2012:before, .history2014:before {
+	content: " ";
+	position: absolute;
+	border: 4px solid white;
+	border-radius: 50%;
+	background-color: #1d1d1d;
+	height: 16px;
+	width: 16px;
+	top: 0;
+	left: -15px;
+	z-index: 1;
+}
+
+
+.history2012 {
+	margin-top: 270px;
 }
 
 .history2013{
-	padding-right: 70px;
-	float: right;
+	margin-top: 250px;
 }
 
+.history2014 {
+	margin-top: 340px;
+}
 
 .date {
 color: #fefefe;
@@ -63,24 +97,22 @@ line-height: 22px;
 	background-color: #1d1d1d;
 	height: 24px;
 	width: 24px;
+	position: absolute;
 }
 
 .circle11 {	
-	position: absolute;
 	top: 150px;
 	left: -15.5px;
 }
 
 
 .circle12 {
-	position: absolute;
 	top: 270px;
 	left: -15.5px;
 }
 
 
 .circle13 {
-	position: absolute;
 	top: 540px;
 	left: -26px;
 	height: 46px;
@@ -88,7 +120,6 @@ line-height: 22px;
 }
 
 .circle14 {
-	position: absolute;
 	top: 755px;
 	left: -15.5px;
 }
